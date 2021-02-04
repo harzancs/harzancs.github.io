@@ -27,29 +27,7 @@
 </head>
 
 <body>
-    <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet"></link>
-    <script src="http://vjs.zencdn.net/4.12/video.js"></script>
-    <script src="https://github.com/videojs/videojs-contrib-media-sources/releases/download/v0.1.0/videojs-media-sources.js"></script>
-    <script src="https://github.com/videojs/videojs-contrib-hls/releases/download/v0.11.2/videojs.hls.min.js"></script>
-    <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="268" data-setup='{}'>
-        <source src="http://ns13.revoproject.com/live/94fmclub.m3u8" type='application/x-mpegURL'>
-    </video>
 
-    <script>
-        var overrideNative = true;
-        var player = videojs('my_video_1', {
-            html5: {
-                hls: {
-                    overrideNative: overrideNative,
-                    debug: true,
-                },
-                nativeVideoTracks: overrideNative,
-                nativeAudioTracks: overrideNative,
-                nativeTextTracks: overrideNative
-            }
-        });
-        player.play();
-    </script>
     <header>
         <div class="container">
 
