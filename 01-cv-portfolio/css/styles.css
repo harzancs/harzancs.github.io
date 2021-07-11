@@ -200,7 +200,7 @@ b.max-bold {
     border-radius: 5px;
     margin-bottom: 20px;
     display: block;
-    background: #FFA804;
+    background: #E8F0F2;
 }
 
 .margin-t-10 {
@@ -221,7 +221,7 @@ b.max-bold {
 }
 
 .font-yellow {
-    color: #0138ff;
+    color: #39A2DB;
 }
 
 .font-semi-white {
@@ -230,6 +230,7 @@ b.max-bold {
 
 .font-lite-black {
     color: #999;
+    font-family: 'Kanit';
 }
 
 
@@ -349,7 +350,7 @@ header .downlad-btn:hover {
     z-index: 1;
     position: relative;
     margin: 0 5px 5px;
-    background: #887392;
+    background: #39A2DB;
     color: #fff;
 }
 
@@ -462,7 +463,7 @@ header .downlad-btn:hover {
 --------------------------------- */
 
 .experience-section {
-    background: #28023D;
+    background: #053742;
     color: #fff;
 }
 
@@ -518,8 +519,8 @@ header .downlad-btn:hover {
     height: 16px;
     border-radius: 10px;
     z-index: 1;
-    box-shadow: 0 0 0 8px rgba(255, 171, 0, .4);
-    background: #FFAB00;
+    box-shadow: 0 0 0 8px rgb(57 162 219 / 40%);
+    background: #39A2DB;
 }
 
 
